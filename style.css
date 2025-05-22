@@ -6,6 +6,9 @@ body {
 
   
 }
+span{
+  color: red;
+}
 
 .container {
   max-width: 500px;
