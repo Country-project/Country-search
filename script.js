@@ -17,6 +17,8 @@ async function searchCountry() {
       <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
       <p><strong>Region:</strong> ${country.region}</p>
     `;
+input.value = ""
+
   } catch (error) {
     resultDiv.innerHTML = `<p style="color: red;">${error.message}</p>`;
   }
